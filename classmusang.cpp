@@ -17,3 +17,15 @@ class jenismusang{
 			
 		
 		}
+		void info(void)
+		{
+			cout << "===================================" << endl;
+			cout << "===========musang==================" <<endl;
+			
+			cout << "Nama Musang         : " << namamusang << endl;
+			cout << "Jenis Makanan       :" <<  makanan << endl;
+			cout << "Warna Bulu          :" << warnabulu << endl;
+			cout << "Panjang Tubuh(m)    :" << panjangtubuh << endl;
+			
+			cout << endl;
+		};
