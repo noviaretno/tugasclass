@@ -29,3 +29,14 @@ class jenismusang{
 			
 			cout << endl;
 		};
+		};
+
+int main(){
+	jenismusang musang1("Musang Pandan", "buah buahan","Hitam ke Coklatan",1);
+	jenismusang musang2("Musang Akar", "daging ayam dan serangga","Putih Ke Abu-Abuan", 1);
+	
+	musang1.info();
+ 	musang2.info();
+	
+	return 0;
+};
